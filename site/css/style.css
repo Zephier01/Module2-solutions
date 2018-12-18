@@ -1,5 +1,9 @@
 /--my css page--/
 
+body {
+	background-color: #ff4342;
+}
+
 p {
 	color: green;
 }
