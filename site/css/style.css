@@ -1,9 +1,81 @@
-/--my css page--/
+       * {
+       	font-family: calibri;
+       }
+ 
+     	h1{
+    		text-align: center;
+    		
+    	}
 
-body {
-	background-color: #ff4342;
-}
+    	p {
+    		padding :30px 0px 0px 0px;
+    	}
 
-p {
-	color: green;
-}
+    	.container {
+    		margin: 10px;
+    		background-color: grey;
+    		border: solid black;
+    		vertical-align: top;
+    		width: 700px;
+    		height: 300px;
+    		display: inline-block;
+    		position: relative;
+    	
+    	}
+
+    	   .container2 {
+    		margin: 10px;
+    		background-color: grey;
+    		border: solid black;
+    		vertical-align: top;
+    		width: 700px;
+    		height: 300px;
+    		display: inline-block;
+    		position: relative;
+         }
+    	#start {
+    		background-color: red;
+    		width: 100px;
+    		border: solid black;
+    		 position: absolute;
+            margin-top:0px;
+            right: 0px;
+         } 
+
+    	#main {
+    		background-color: blue;
+    		width: 100px;
+    		border: solid black;
+     		 position: absolute;
+            margin-top:0px;
+            right: 0px;
+    	} 
+
+        #dessert {
+    		background-color: yellow;
+    		width: 100px;
+    		border: solid black;
+    		 position: absolute;
+             margin-top:0px;
+            right: 0px;
+
+    	} 
+
+    	@media (min-width: 992px ) { 
+    	.container {
+    	   width: 30%;
+    		} 
+    	.container2 {
+    	   width: 30%;
+    		}}
+
+
+    	@media(min-width:768px) and (max-width:991px ) {
+    		.container {width: 46%;}
+    		.container2 {width: 95%;}
+    	}
+
+    	@media(max-width: 767px){
+    		  .container {width:  95%;}
+    		.container2 {width:  95%;}
+    	}       }
